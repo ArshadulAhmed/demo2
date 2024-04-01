@@ -22,17 +22,17 @@ function GraphCards(props) {
         <div className="homePageWrapper">
             <div className="topCardSection">
             <div className="width-50 card cardHeight-200">
-                <div className="cardInner">
+                <div className="cardInner cardInnerTopRow">
                     <PopulationChat/>
                 </div>
             </div>
             <div className="width-25 card cardHeight-200">
-            <div className="cardInner">
+            <div className="cardInner cardInnerTopRow">
                     <CurrenyChart/>
                 </div>
             </div>
             <div className="width-25 card cardHeight-200">
-            <div className="cardInner">
+            <div className="cardInner cardInnerTopRow">
                 <NewsSection/>
                 </div>
             </div>

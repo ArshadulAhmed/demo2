@@ -80,9 +80,45 @@
 }
 
 .newsSection{
+    .footer{
+        margin-top: 30px;
+       
+    }
     .footer, .footerInner{
         display: flex;
         justify-content: space-between;
         align-items: center;
+        color: #fff;
+        svg{
+            margin-right: 5px;
+        }
+    }
+    .newsSectionDiv{
+        display: flex;
+        justify-content: space-between;
+        background: #000;
+        padding: 30px 5px;
+        border-radius: 4px;
+    
+    }
+    .newsSectionMiddle{
+        p{
+            margin: 0px;
+            font-size: 13px;
+            color: #fff;
+            line-height: 1.5;
+        }
+        .head{
+            p{
+                font-weight: 600;
+                margin-bottom: 5px;
+            }
+        }
+    }
+    .imageSection{
+        svg{
+            color: #fff;
+            padding: 0px 5px;
+        }
     }
 }

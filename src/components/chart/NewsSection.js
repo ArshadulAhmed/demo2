@@ -14,27 +14,25 @@ export function NewsSection() {
             </div>
             <div className='newsSectionDiv'>
                 <div className='imageSection'>
-                    <img src='' />
+                    <FaRegHeart />
                 </div>
-                <div>
+                <div className='newsSectionMiddle'>
                     <div className='head'>
                         <p>Carbon cell <span>@carbonCell 21hrs</span></p>
                     </div>
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-                        natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque
-                        eu, pretium quis, sem. Nulla consequat massa quis enim</p>
+                        natoque penatibus</p>
 
+            
                     <div className='footer'>
                         <div className='footerInner'>
                             <FaRegCommentDots />
                             <p>19</p>
                         </div>
-
                         <div className='footerInner'>
                             <MdOutlineShare />
                             <p>48</p>
                         </div>
-
                         <div className='footerInner'>
                             <FaRegHeart />
                             <p>482</p>
