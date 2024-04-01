@@ -1,4 +1,8 @@
 .populationChartWrapper{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     .topBlock, .countryName, .bottomBlock{
         display: flex;
         justify-content: space-between;
@@ -40,6 +44,10 @@
     cursor: pointer;
 }
 .doughnutChart{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     .topBlock, .bottomBlock{
         display: flex;
     justify-content: center;
@@ -55,7 +63,7 @@
             margin: 12px 0px;
             .left, .right{
                 p{
-                    margin: 3px 0px;
+                    margin: 0px 0px 5px 0px;
                     color: #fff;
                     font-size: 12px;
                 }
@@ -70,3 +78,10 @@
         }
     }
 }
+
+// .populationChartWrapper {
+//     height: 100%;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: space-between;
+// }
