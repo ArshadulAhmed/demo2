@@ -1,0 +1,36 @@
+.homePageWrapper{
+    width: 100%;
+    .topCardSection{
+        display: flex;
+        .cardInner {
+            border: 1px solid #fff;
+            padding: 0.5rem;
+            height: 100%;
+        }
+    }
+
+}
+.bottomSection{
+    .heading{
+        font-size: 12px;
+    }
+    .bottomSectionInner{
+        display: flex;
+    }
+}
+
+.width-50{
+    width: 50%;
+    padding: 1rem;
+}
+.width-25{
+    width: 25%;
+    padding: 1rem;
+}
+.width-20{
+    width: 20%;
+    padding: 0.5rem;
+}
+.cardHeight-200{
+    height: 200px;
+}

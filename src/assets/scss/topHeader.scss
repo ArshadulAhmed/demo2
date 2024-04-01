@@ -1,0 +1,36 @@
+.topHeaderWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .left {
+        .heading {
+            font-size: 16px;
+            font-weight: 600;
+            margin: 0px 0px 3px;
+            color: #fff;
+        }
+
+        .subHeading {
+            font-size: 14px;
+            font-weight: 400;
+            margin: 0px;
+            color: #fff;
+            span{
+                color: #00ff72;
+            }
+        }
+    }
+
+    .right {
+        p {
+            margin: 0px;
+            background: #00ff72;
+            color: #fff;
+            padding: 5px 10px;
+            font-weight: 600;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    }
+}

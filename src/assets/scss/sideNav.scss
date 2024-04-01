@@ -1,0 +1,124 @@
+.sideNavWrapper{
+    background-color: #161b0b;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 15px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    
+    .sideNavTopWrapper{
+        width: 100%;
+        .logoBlock{
+            .logoBlockTop{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 20px;
+                img{
+                    max-width: 100px;
+                }
+                .menuIcon{
+                    cursor: pointer;
+                    color: #fff;
+                    font-size: 24px;
+                }
+            }
+        }
+        .searchBlock{
+            margin-bottom: 35px;
+            input{
+                width: 95%;
+                border-radius: 4px;
+                height: 30px;
+                padding-left: 5px;
+            }
+        }
+    }
+
+    .commonMenuWrapper{
+        .menuWrapper {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            cursor: pointer;
+
+            p{
+                margin: 0px 0px 0px 10px;
+                color: #e8e7e7;
+                font-size: 14px;
+                width: 100%;
+            }
+            .iconBlock{
+                display: inline-flex;
+                svg{
+                    max-width: 20px;
+                    color: #e8e7e7;
+                }
+            }
+        }
+    }
+
+    .userBlock{
+        display: flex;
+        background: #432727;
+        padding: 5px;
+        align-items: center;
+        .leftBlock{
+            display: flex;
+            align-items: center;
+            .imageBlock{
+                width: 32px;
+                display: flex;
+                align-items: center;
+                svg.userImage {
+                    width: 75%;
+                    height: 75%;
+                }
+             }
+             .userInfo{
+                 
+                 :nth-child(1){
+                    font-weight: 400;
+                    font-size: 11px;
+                    color: #fff;
+                 }
+                 :nth-child(2){
+                     font-weight: normal;
+                     font-size: 10px;
+                     color: #c0a8a8;
+                 }
+                 p{
+                     margin: 0px;
+                 }
+             }
+        }
+    }
+
+    .active{
+        p, svg{
+            color: #00ff72 !important;
+        }
+       
+    }
+
+    .notificationCount{
+        text-align: right;
+        span {
+            background: #00ff72;
+            padding: 2px;
+            border-radius: 4px;
+            font-size: 10px;
+            color: #000;
+            font-weight: 600;
+        }
+    }
+
+}
+.sideNavWrapperOpen{
+    max-width: 30%;
+}
+.sideNavWrapperClose{
+    max-width: 3%;
+}
