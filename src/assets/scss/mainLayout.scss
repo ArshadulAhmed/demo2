@@ -9,3 +9,12 @@
     }
 }
 
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .rightMainContent {
+        width: 90% !important;
+    }
+   .rightMainContentOpen{
+    width: 80% !important;
+    padding: 10px !important;
+   }
+}

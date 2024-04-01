@@ -1,15 +1,19 @@
 import React, {useState} from "react";
+import { UseDispatch, useDispatch, useSelector } from "react-redux";
 
 import SideNavTop from './SideNavTop'
 import SideNavStaticMenu from './SideNavStaticMenu'
 import '../../assets/scss/sideNav.scss'
+import { handleMenuToggle } from "../../redux/reducers/commonSlice";
 
 
 function SideNavBar(props){
-    const [isOpen, setOpen] = useState(true)
+    const dispatch = useDispatch()
+    const isOpen = useSelector((state)=> state.commonSlice.isOpen)
+  
     
     const handleToggleMenu = ()=>{
-        setOpen(!isOpen)
+        dispatch(handleMenuToggle(isOpen))
     }
 
     return(

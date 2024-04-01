@@ -125,3 +125,27 @@
         }
     }
 }
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .populationChartWrapper .topBlock p  {
+   
+            margin: 0px 2px;
+            font-size: 9px;
+        
+    }
+    .width-50{
+        width: 40%;
+    }
+    .imageSection{
+        display: none;
+    }
+    .newsSection .newsSectionMiddle p{
+        font-size: 10px;
+    }
+    .newsSection .footer svg, .newsSection .footerInner svg {
+       font-size: 10px;
+    }
+    .populationChartWrapper .bottomBlock p {
+        font-size: 9px;
+    }
+}

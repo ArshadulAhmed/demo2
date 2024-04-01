@@ -122,3 +122,24 @@
 .sideNavWrapperClose{
     max-width: 3%;
 }
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .sideNavWrapperOpen {
+        max-width: 15%;
+    }
+    .sideNavWrapper{
+        padding: 7px;
+    }
+    .sideNavWrapper .sideNavTopWrapper .logoBlock .logoBlockTop img {
+        max-width: 75px;
+    }
+    .sideNavWrapper .userBlock .leftBlock .userInfo :nth-child(2) {
+        font-size: 7px;
+    }
+    .sideNavWrapper .userBlock .leftBlock .userInfo :nth-child(2) {
+        font-size: 7px;
+    }
+    .sideNavWrapper .commonMenuWrapper .menuWrapper p {
+        font-size: 10px;
+    }
+}
