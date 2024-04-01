@@ -48,4 +48,25 @@
         justify-content: center;
         display: flex;
     }
+    .doughnutChartList{
+        .doughnutChartListInner{
+            display: flex;
+            justify-content: space-between;
+            margin: 12px 0px;
+            .left, .right{
+                p{
+                    margin: 3px 0px;
+                    color: #fff;
+                    font-size: 12px;
+                }
+            }
+            .leftOuter{
+                display: flex;
+                align-items: center;
+            }
+            .colourBlock{
+                margin-right: 7px;
+            }
+        }
+    }
 }
