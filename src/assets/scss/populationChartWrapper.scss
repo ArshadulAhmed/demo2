@@ -149,3 +149,24 @@
         font-size: 9px;
     }
 }
+
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+    .populationChartWrapper .topBlock p{
+        font-size: 8px;
+    }
+    .populationChartWrapper .bottomBlock p{
+        font-size: 9px;
+    }
+    .doughnutChart .doughnutChartList .doughnutChartListInner .left p, .doughnutChart .doughnutChartList .doughnutChartListInner .right p{
+        font-size: 9px;
+    }
+    .newsSection .newsSectionMiddle p{
+        font-size: 10px;
+    }
+    .lineChart{
+        canvas{
+            height: 90px !important;
+        }
+    }
+}

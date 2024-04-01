@@ -143,3 +143,20 @@
         font-size: 10px;
     }
 }
+@media screen and (min-width: 0px) and (max-width: 767px) {
+    .sideNavWrapper .sideNavTopWrapper .logoBlock .logoBlockTop img {
+        max-width: 50px;
+    }
+    .sideNavWrapper .userBlock {
+       display: none;
+    }
+    .sideNavWrapper .commonMenuWrapper .menuWrapper p {
+        font-size: 9px;
+    }
+    .sideNavWrapperOpen{
+        width: 20%;
+    }
+    .notificationCount{
+        display: none;
+    }
+}

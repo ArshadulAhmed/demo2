@@ -18,3 +18,12 @@
     padding: 10px !important;
    }
 }
+@media screen and (min-width: 0px) and (max-width: 767px) {
+    .rightMainContent {
+        width: 80% !important;
+    }
+   .rightMainContentOpen{
+    width: 60% !important;
+    padding: 10px !important;
+   }
+}

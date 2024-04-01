@@ -73,7 +73,6 @@ export function PopulationChat() {
             <p>USA</p>
             <p>Canada</p>
             <p>India</p>
-            <p>Australia</p>
            </div>
         </div>
        <div className="lineChart">
