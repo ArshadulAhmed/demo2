@@ -3,9 +3,9 @@
     .topCardSection{
         display: flex;
         .cardInner {
-            border: 1px solid #fff;
-            padding: 0.5rem;
-            height: 100%;
+            border-radius: 4px;
+            padding: 1rem;
+            background: #2c2c2c;
         }
     }
 
@@ -32,5 +32,5 @@
     padding: 0.5rem;
 }
 .cardHeight-200{
-    height: 200px;
+   // height: 200px;
 }
