@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 
 import { LiaJournalWhillsSolid } from "react-icons/lia";
 import { BsScrewdriver } from "react-icons/bs";
@@ -13,9 +13,7 @@ import '../../assets/scss/infoCards.scss'
 import  {currencyData}  from "../../redux/reducers/currencySlice";
 
 function InfoCards(props) {
-    const mainState = useSelector((state)=> state.currency.data);
     const dispatch = useDispatch()
-    console.log("currencycurrencycurrency", mainState)
  
     useEffect(()=>{
         dispatch(currencyData())
@@ -39,14 +37,14 @@ function InfoCards(props) {
                         </div>
                         <div className="infoBlock">
                         <MdOutlineInfo />
-                        <p>Trade</p>
+                        <p className="button">Trade</p>
                         </div>
                     </div>
                 </div>
             </div>
             <div className="width-20 card cardHeight">
             <div className="cardInner">
-                    <div className="cardInnerWrapper color1">
+                    <div className="cardInnerWrapper color2">
                         <div className="header">
                             <BsScrewdriver/>
                             <p>NBST</p>
@@ -58,14 +56,14 @@ function InfoCards(props) {
                         </div>
                         <div className="infoBlock">
                         <MdOutlineInfo />
-                        <p>Trade</p>
+                        <p className="button">Trade</p>
                         </div>
                     </div>
                 </div>
             </div>
             <div className="width-20 card cardHeight">
             <div className="cardInner">
-                    <div className="cardInnerWrapper color1">
+                    <div className="cardInnerWrapper color3">
                         <div className="header">
                             <SiWikidotjs/>
                             <p>NBST</p>
@@ -77,14 +75,14 @@ function InfoCards(props) {
                         </div>
                         <div className="infoBlock">
                         <MdOutlineInfo />
-                        <p>Trade</p>
+                        <p className="button">Trade</p>
                         </div>
                     </div>
                 </div>
             </div>
             <div className="width-20 card cardHeight">
             <div className="cardInner">
-                    <div className="cardInnerWrapper color1">
+                    <div className="cardInnerWrapper color4">
                         <div className="header">
                             <FaReact/>
                             <p>NBST</p>
@@ -96,13 +94,13 @@ function InfoCards(props) {
                         </div>
                         <div className="infoBlock">
                         <MdOutlineInfo />
-                        <p>Trade</p>
+                        <p className="button">Trade</p>
                         </div>
                     </div>
                 </div>
             </div>            <div className="width-20 card cardHeight">
             <div className="cardInner">
-                    <div className="cardInnerWrapper color1">
+                    <div className="cardInnerWrapper color5">
                         <div className="header">
                             <FaJava/>
                             <p>NBST</p>
@@ -114,7 +112,7 @@ function InfoCards(props) {
                         </div>
                         <div className="infoBlock">
                         <MdOutlineInfo />
-                        <p>Trade</p>
+                        <p className="button">Trade</p>
                         </div>
                     </div>
                 </div>

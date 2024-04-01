@@ -8,7 +8,6 @@ const POST_URL = 'https://api.coindesk.com/v1/bpi/currentprice.json'
 export const currencyData = createAsyncThunk("getCurrency", async (data) => {
   try {
     const response = await axios.get(POST_URL, data);
-    console.log(response.data);
     return response.data;
   } catch (error) {
     return isRejectedWithValue(error.response);

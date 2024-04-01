@@ -31,10 +31,10 @@
         justify-content: space-between;
         margin-top: 10px;
         p{
-            border: 1px solid #ccc;
-    padding: 5px 10px;
-    border-radius: 4px;
-    cursor: pointer;
+            padding: 5px 10px;
+            border-radius: 4px;
+            cursor: pointer;
+            color: #000;
         }
     }
     .midHeading{
@@ -49,6 +49,82 @@
             height: 20px;
             border-radius: 50%;
             padding: 5px;
+        }
+    }
+   
+}
+.color1{
+    .header{
+        svg{
+            background-color: #007534;
+        }
+    }
+    .button{
+        background-color: #007534;
+    }
+    .infoBlock{
+        svg{
+            color: #007534;
+        }
+    }
+}
+.color2{
+    .header{
+        svg{
+            background-color: #429e6b;
+        }
+    }
+    .button{
+        background-color: #429e6b;
+    }
+    .infoBlock{
+        svg{
+            color: #429e6b;
+        }
+    }
+}
+.color3{
+    .header{
+        svg{
+            background-color:#747500;
+        }
+    }
+    .button{
+        background-color:#747500;
+    }
+    .infoBlock{
+        svg{
+            color:#747500;
+        }
+    }
+}
+.color4{
+    .header{
+        svg{
+            background-color: #d5d619;
+        }
+    }
+    .button{
+        background-color: #d5d619;
+    }
+    .infoBlock{
+        svg{
+            color: #d5d619;
+        }
+    }
+}
+.color5{
+    .header{
+        svg{
+            background-color: #feff00;
+        }
+    }
+    .button{
+        background-color: #feff00;
+    }
+    .infoBlock{
+        svg{
+            color: #feff00;
         }
     }
 }

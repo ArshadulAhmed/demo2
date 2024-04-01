@@ -8,7 +8,6 @@ const POST_URL = 'https://datausa.io/api/data?drilldowns=Nation&measures=Populat
 export const popoulationData = createAsyncThunk("getPopulation", async (data) => {
   try {
     const response = await axios.get(POST_URL, data);
-    console.log(response.data);
     return response.data;
   } catch (error) {
     return isRejectedWithValue(error.response);

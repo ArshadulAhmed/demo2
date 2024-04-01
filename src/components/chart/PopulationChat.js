@@ -56,7 +56,7 @@ export function PopulationChat() {
         datasets: [
           {
             data: dataToDisplay && dataToDisplay.map((item) => item.Population),
-            borderColor: 'rgb(255, 99, 132)',
+            borderColor: 'rgb(0 117 52)',
             backgroundColor: 'rgba(255, 99, 132, 0.5)',
           },
         ],
