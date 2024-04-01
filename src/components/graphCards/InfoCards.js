@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from 'react-redux';
 
-import  {popoulationData}  from "../../redux/reducers/populationSlice";
+import  {currencyData}  from "../../redux/reducers/currencySlice";
 
 function InfoCards(props) {
     const mainState = useSelector((state)=> state.population);
@@ -9,7 +9,7 @@ function InfoCards(props) {
     console.log("1111111111111111111111", mainState)
  
     useEffect(()=>{
-        dispatch(popoulationData())
+        dispatch(currencyData())
     },[])
 
     return(

@@ -1,9 +1,17 @@
 import React, { useEffect } from "react";
+import { useDispatch, useSelector } from 'react-redux';
 
+import  {popoulationData}  from "../../redux/reducers/populationSlice";
 
 
 function GraphCards(props) {
+    const mainState = useSelector((state)=> state.population);
+    const dispatch = useDispatch()
+    console.log("1111111111111111111111", mainState)
  
+    useEffect(()=>{
+        dispatch(popoulationData())
+    },[])
 
     return(
         <div className="homePageWrapper">
