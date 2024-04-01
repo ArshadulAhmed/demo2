@@ -76,7 +76,9 @@ export function PopulationChat() {
             <p>Australia</p>
            </div>
         </div>
-        <Line options={options} data={data}/>
+       <div className="lineChart">
+       <Line options={options} data={data}/>
+       </div>
         <div className="bottomBlock">
             <p>Get in depth charts in Trade</p>
             <p className="buttonPrimary">Trade</p>
