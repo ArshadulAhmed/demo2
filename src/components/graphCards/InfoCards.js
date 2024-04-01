@@ -4,9 +4,9 @@ import { useDispatch, useSelector } from 'react-redux';
 import  {currencyData}  from "../../redux/reducers/currencySlice";
 
 function InfoCards(props) {
-    const mainState = useSelector((state)=> state.population);
+    const mainState = useSelector((state)=> state.currency.data);
     const dispatch = useDispatch()
-    console.log("1111111111111111111111", mainState)
+    console.log("currencycurrencycurrency", mainState)
  
     useEffect(()=>{
         dispatch(currencyData())
