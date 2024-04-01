@@ -12,7 +12,6 @@ function HomePage(props) {
                  <GraphCards/>
             </div>
             <div className="bottomSection">
-            <p className="heading">Assets</p>
             <div className="bottomSectionInner">
             <InfoCards/>
             </div>

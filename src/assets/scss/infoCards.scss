@@ -1,0 +1,54 @@
+.cardInnerWrapper{
+    .header, .infoBlock{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        p{
+            margin: 0px 0px 0px 20px;
+            color: #fff;
+            font-size: 11px;
+            font-weight: 600;
+        }
+    }
+    .amountBlock{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        :nth-child(1){
+            font-weight: 700;
+            font-size: 16px;
+            ;
+        }
+        :nth-child(2){
+            font-size: 11px;
+        }
+        p{
+            color: #fff;
+            margin: 0px;
+        }
+    }
+    .infoBlock{
+        justify-content: space-between;
+        margin-top: 10px;
+        p{
+            border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+        }
+    }
+    .midHeading{
+        font-size: 14px;
+        margin: 10px 0px;
+        color: #fff;
+    }
+    .header{
+        svg{
+            background-color: aqua;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            padding: 5px;
+        }
+    }
+}
