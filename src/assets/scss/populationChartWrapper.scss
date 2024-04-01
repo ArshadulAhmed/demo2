@@ -39,3 +39,13 @@
     border-radius: 4px;
     cursor: pointer;
 }
+.doughnutChart{
+    .topBlock, .bottomBlock{
+        display: flex;
+    justify-content: center;
+    }
+    .doughnutDiv{
+        justify-content: center;
+        display: flex;
+    }
+}
