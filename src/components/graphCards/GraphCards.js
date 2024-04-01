@@ -1,24 +1,29 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from 'react-redux';
+import {
+    Chart as ChartJS,
+    CategoryScale,
+    LinearScale,
+    PointElement,
+    LineElement,
+    Title,
+    Tooltip,
+    Legend,
+  } from 'chart.js';
+import { Line } from 'react-chartjs-2';
 
-import  {popoulationData}  from "../../redux/reducers/populationSlice";
+import {PopulationChat} from "../chart/PopulationChat"
 
 
 function GraphCards(props) {
-    const mainState = useSelector((state)=> state.population);
-    const dispatch = useDispatch()
-    console.log("1111111111111111111111", mainState)
- 
-    useEffect(()=>{
-        dispatch(popoulationData())
-    },[])
+
 
     return(
         <div className="homePageWrapper">
             <div className="topCardSection">
             <div className="width-50 card cardHeight-200">
                 <div className="cardInner">
-                <h1>Test</h1>
+                    <PopulationChat/>
                 </div>
             </div>
             <div className="width-25 card cardHeight-200">
